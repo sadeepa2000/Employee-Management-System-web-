@@ -1,0 +1,129 @@
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url('Image/Back.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+font-family: poppins;
+color: rgb(87, 83, 83);
+font-size:small;
+margin-top: -10px;
+font-weight: 100;
+}
+h1{
+    font-weight: 150;
+    font-family: poppins;
+}
+.sidebar {
+    height: 100%;
+    width: 1050px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #090f2500;
+    overflow-x: hidden;
+    padding-top: 16px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 28px;;
+    
+}
+h4{
+    font-weight: 400;
+    margin-top: 10;
+    font-family: poppins;
+}
+h5{
+    font-weight: 400;
+    margin-top: -40;
+    font-family: poppins;
+}
+
+
+
+.wrapper{
+width: 10px;
+text-align: center;
+
+}
+.wrapper{
+    position: relative;
+    width: 25%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0);
+    margin: 10px;
+    margin-left: 950px;
+    margin-top: -80px;
+
+
+}
+.input-box input{
+    width: 80%;
+    height: 10%;
+    background: #8f8f9500;
+    border: none;
+    border-color: #8f8f95;
+    outline: none;
+    border: 1px solid #8f8f95;
+    border-radius: 15px;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: 20;
+    color: rgb(47, 45, 45);
+    margin-left: 35px;
+    margin-top: 10;
+    padding: 20px;
+}
+.input-box input::placeholder{
+    color: rgb(42, 40, 40);
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 60% ;
+    
+   
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin: 10px;
+    margin-left: 35px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+}
+.remember-forgot label input{
+    accent-color: rgb(50, 34, 222);
+    margin-right:3px;
+    font-family: poppins;
+
+}
+.button{
+    width: 80%;
+    height: 10%;
+    background-color:#525CEB;
+    border: 2px solid #525CEB;
+    border-color: #525CEB;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:40px;
+    font-family: poppins;
+    font-weight: 300;
+    
+}
+.button:hover {box-shadow: 0 0 0px 0 #525CEB inset, 0 0 10px 4px #525CEB;}
+

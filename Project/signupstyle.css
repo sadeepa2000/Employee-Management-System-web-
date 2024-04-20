@@ -1,0 +1,124 @@
+.{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-image: url('Image/Back.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;  
+background-size: cover;
+font-family: poppins;
+color: white;
+font-size:small;
+margin-top: 2px;
+font-weight: 200;
+}
+
+
+
+.wrapper{
+width: 100px;
+text-align: center;
+}
+.wrapper{
+    position: relative;
+    width: 25%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0);
+    margin: 50px;
+    margin-top: -80px;
+    
+   
+    
+
+}
+.input-box input{
+    width: 80%;
+    height: 10%;
+    background: rgba(255, 255, 255, 0.263);
+    border: none;
+    border-color: #8f8f95;
+    outline: none;
+    border: 1px solid #8f8f95;
+    border-radius: 15px;
+    font-size: 15px;
+    font-family:poppins;
+    font-weight: 20;
+    color: #8f8f95;
+    margin-left: 40px;
+    margin-top: 10;
+    padding: 20px;
+}
+.input-box input::placeholder{
+    color: #8f8f95;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 50% 
+   
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 10px;
+    margin-left: 35px;
+    color: rgb(74, 73, 73);
+}
+.remember-forgot label input{
+    accent-color: rgb(54, 53, 53);
+    margin-right:3px;
+    font-family:poppins;
+
+}
+.wrapper .btn{
+    width: 80%;
+    height: 10%;
+    background-color:#525CEB;
+    border: 2px solid #525CEB;
+    border-color: #525CEB;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:40px;
+    font-family: poppins;
+    font-weight: 300;
+    
+}
+.btn:hover {box-shadow: 0 0 0px 0 #525CEB inset, 0 0 10px 4px #525CEB;}
+
+
+.text{
+
+    font-size: xx-small;
+    align-items: center;
+    margin-top: 40px;
+    color: #000000;
+    font-weight: 200;
+}
+a{
+    color: #000000;
+    font-weight: 200;
+}
+h1{
+    font-weight: 150;
+    color: #4a4949;
+}
+h3{
+    font-weight: 100;
+}
+

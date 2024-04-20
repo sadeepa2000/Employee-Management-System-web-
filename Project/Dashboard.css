@@ -1,0 +1,90 @@
+
+.wrapper{
+
+    margin-top: 250px;
+    margin-left: 60px;
+}
+body{
+    background-image: url('Image/Back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: poppins;
+    
+}
+.button{
+    font-family:poppins;
+    text-align: left;
+    width: 15%;
+    height: 15%;
+    background-color:#3a46c9;
+    border: 3px solid #444995;
+    border-color: #444995;
+    color: #fff;
+    padding: 10px 25px ;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 500;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:10px;
+    transition: all 150ms ease-in-out;
+    margin-left: 300px;
+    margin-top:65px;
+    margin-right: 60px;
+    
+}
+.button:hover {box-shadow: 0 0 10px 0 #444995 inset, 0 0 10px 4px #444995;}
+
+.button2{
+    font-family:poppins;
+    text-align: left;
+    width: 15%;
+    height: 15%;
+    background-color:#3a46c9;
+    border: 3px solid #444995;
+    border-color: #444995;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius:10px;
+    transition: all 150ms ease-in-out;
+    margin-left: 5px;
+    margin-top: 70px;
+    margin-right: 60px;
+    
+}
+
+.button2:hover {box-shadow: 0 0 10px 0 #444995 inset, 0 0 10px 4px #444995;}
+
+.button3{
+    font-family:poppins;
+    text-align: left;
+    width: 15%;
+    height: 15%;
+    background-color:#3a46c9;
+    border: 3px solid #444995;
+    border-color: #444995;
+    color: #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size:20px;
+    font-weight: 500;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius:10px;
+    transition: all 150ms ease-in-out;
+    margin-left: 5px;
+    margin-top: 70px;
+    margin-right: 100px;
+    
+}
+.button3:hover {box-shadow: 0 0 10px 0 #444995 inset, 0 0 10px 4px #444995;}
+

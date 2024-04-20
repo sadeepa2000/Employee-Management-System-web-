@@ -1,0 +1,132 @@
+
+body{
+    background-image: url('Image/Back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    font-family: poppins;
+}
+.imagee{
+    text-align: center;
+    margin-bottom: -1px;
+    margin-left: 200px;
+}
+h3{
+color: white;
+text-align: center;
+font-size: medium;
+margin-top: -15px;
+font-weight: 5;
+margin-left: 1px;
+font-family: poppins;
+
+}
+h2{
+color: white;
+text-align: center;
+font-size: medium;
+font-weight: 40;
+margin-left: 1px;
+margin-top: -2px;
+font-family: poppins;
+}
+.user {
+    float: left;
+    padding:2px ;
+    margin-right: 10px;
+    
+  }
+  .info{
+    margin-left: 1415px;
+    padding-bottom: -500px;
+}
+h5{
+    text-align: center;
+    margin-top: 40px;
+    font-family: poppins;
+    color: white;
+    font-weight: 400;
+}
+.image{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 140;
+    opacity: 0.7;
+}
+.f-container{
+            width: 900px;
+            height: 450px;
+            margin-left: 400px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.978);
+            background-color: rgb(255, 255, 255);
+    
+            
+        }
+
+.input-box input{
+        width: 30%;
+        height: 8%;
+        background: #060719;
+        border: none;
+        outline: none;
+        border: 3px solid #4942E4;
+        border-radius: 8px;
+        font-size: 10px;
+        font-family:poppins;
+        font-weight:10;
+        color: rgba(255, 255, 255, 0.481);
+        display: flex;
+        float: right;
+}
+.input-box2 input{
+    width: 30%;
+    height: 8%;
+    background: #060719;
+    border: none;
+    outline: none;
+    border: 3px solid #4942E4;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family:poppins;
+    font-weight:10;
+    color: rgba(255, 255, 255, 0.481);
+    display: flex;
+    float: right;
+    
+}
+.input-box3 input{
+    width: 30%;
+    height: 8%;
+    background: #060719;
+    border: none;
+    outline: none;
+    border: 3px solid #4942E4;
+    border-radius: 8px;
+    font-size: 10px;
+    font-family:poppins;
+    font-weight:10;
+    color: rgba(255, 255, 255, 0.481);
+    display: flex;
+    float: right;
+    
+}
+.form{
+    color: #000000;
+}
+.nextBtn{
+    margin-left: 650px;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    max-width: 200px;
+    width: 100%;
+    color: #fff;
+    border-radius: 30px;
+    background-color: #060719;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    border: white;
+    text-decoration:dotted;
+}
