@@ -1,4 +1,4 @@
-/* ===== Google Font Import - Poppins ===== */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
 
 * {
@@ -23,7 +23,7 @@ body {
     border-radius: 6px;
     padding: 10px 25px 0px 25px;
     margin: 20px;
-    background-color: #4942E4;
+    background-color: #7BC9FF;
     box-shadow: 0 5px 10px rgb(0, 0, 0);
     color: white;
 }
@@ -50,14 +50,14 @@ body {
     position: relative;
     margin-top: 16px;
     min-height: 490px;
-    background-color:#4942E4;
+    background-color:#7BC9FF;
     overflow: hidden;
     
 }
 
 .container form .form {
     position: absolute;
-    background-color: #4942E4;
+    background-color: #7BC9FF;
     transition: 0.3s ease;
 }
 

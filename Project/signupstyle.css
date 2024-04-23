@@ -1,9 +1,4 @@
-.{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    font-family: poppins;
-}
+
 body{
 display: flex;
 justify-content: center;
@@ -14,7 +9,7 @@ background-repeat: no-repeat;
 background-attachment: fixed;  
 background-size: cover;
 font-family: poppins;
-color: white;
+    color: white;
 font-size:small;
 margin-top: 2px;
 font-weight: 200;
@@ -82,10 +77,10 @@ text-align: center;
 .wrapper .btn{
     width: 80%;
     height: 10%;
-    background-color:#525CEB;
+    
     border: 2px solid #525CEB;
     border-color: #525CEB;
-    color: rgb(255, 255, 255);
+    color: #525CEB;
     padding: 10px;
     text-align: center;
     text-decoration: none;

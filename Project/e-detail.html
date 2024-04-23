@@ -15,7 +15,7 @@
     border-radius: 6px;
     padding: 10px 25px 0px 25px;
     margin-top: 150px;
-    background-color: #4942E4;
+    background-color: #7BC9FF;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     color: white;
 
@@ -36,14 +36,14 @@ h2{
     padding: 10px 0;
     margin-left: 600;
   }
-  /* Style for the image */
+
   .logo {
     max-width: 100px;
     height: auto;
     display: block;
     margin-left: 100;
   }
-  /* Style for the text */
+ 
   .text {
     margin-top: -5px;
     font-size: 15px;
@@ -74,13 +74,13 @@ h2{
   font-family: poppins;
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
   position: relative;
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -94,7 +94,7 @@ h2{
   margin-left: -35;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
   color: black;
   padding: 12px 16px;
@@ -104,16 +104,16 @@ h2{
   align-items: center;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {
   display: block;
   text-align: center;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {
   background-color: #00000000;
 }
@@ -138,7 +138,23 @@ h2{
       </div>
     </div>
   </div>
-    
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Confirm Delete</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Are you sure you want to This Employee?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <a href="#"><button type="button" class="btn btn-danger">Delete</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
     <nav class="navbar fixed-top">
       
         <div class="top-bar">
@@ -186,7 +202,7 @@ h2{
       </nav>
     <div class="container">
 
-        <header>Employee Detail</header>
+        <header style="color: #1C1678;">Employee Detail</header>
        <a href="Employeedetail.html"><button class="nextBtn">
           <span class="btnText">Add Employee</span>
       </button></a> 
@@ -199,7 +215,9 @@ h2{
                       <th scope="col">Gender</th>
                       <th scope="col">TP:No</th>
                       <th scope="col">Type</th>
-                      <th scope="col">Delete</th>
+                      <th scope="col"><button type="delete" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal1" style=" background-color: red; border-radius: 10px; width: 80; height: 40;margin-left: 50px; margin-right: -50px; margin-top: -5px; margin-bottom: -5px; font-size: small;">Delete </button></th>
+                      
+                      
                     </tr>
                   </thead>
               </table>
